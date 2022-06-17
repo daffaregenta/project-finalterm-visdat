@@ -20,7 +20,7 @@ from datetime import date, datetime
 
 # ## Load Dataset
 
-cov_data = pd.read_csv('data/covid_19_indonesia_time_series_all.csv')
+cov_data = pd.read_csv('./covid_19_indonesia_time_series_all.csv')
 cov_data.head()
 
 # ## Preprocessing Data
