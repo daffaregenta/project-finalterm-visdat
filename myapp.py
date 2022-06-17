@@ -10,7 +10,7 @@ import pandas as pd
 from bokeh.io import curdoc
 from bokeh.plotting import figure, show
 from bokeh.models import HoverTool, ColumnDataSource, CategoricalColorMapper
-# from bokeh.palettes import Spectral6
+from bokeh.palettes import Spectral6
 from bokeh.layouts import widgetbox, row
 from bokeh.models import Select, RangeSlider
 
