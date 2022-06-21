@@ -30,7 +30,7 @@ ints = cinemas['cinema_code'].value_counts().sort_index().index.tolist()
 ints_film = films['film_code'].value_counts().sort_index().index.tolist()
 
 source = ColumnDataSource(data={
-    'cinema_code'       : cinemas[cinemas['cinema_code'] == 470]['cinema_code'],
+    'cinema_code'       : cinemas[cinemas['cinema_code'] == 304]['cinema_code'],
     'date'              : cinemas[cinemas['cinema_code'] == 304]['date'],
     'tickets_sold'      : cinemas[cinemas['cinema_code'] == 304]['tickets_sold'],
     'total_sales'       : cinemas[cinemas['cinema_code'] == 304]['total_sales']/1000000000,
